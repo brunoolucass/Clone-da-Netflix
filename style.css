@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    height: 620px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+    font-family:sans-serif;
+    color: white;
+}
+
+.header {
+    position: absolute;
+    z-index: 50;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-left: 70px;
+    max-width: 2390px;
+}
+
+.header a {
+    display: inline-block;
+    justify-content: flex-start;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px 22px ;
+    color: white;
+    background-color:rgba(228, 8, 20) ;
+    border-radius: 8%;
+}
+
+.main {
+    height: 980px;
+    background: url(/assets/images/large-imag.jpg )   no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+section {
+    border-top: 12px solid #222;
+    
+}
+span {
+    padding-left: 90px;
+    margin-top: 150px;
+    font-size: 33px;
+}
+.main-child {
+    align-items: center;
+    z-index: 2;
+}
+.main-child p {
+    padding-left: 20px;
+    padding-top: 40px;
+    font-size: 25px;
+}
+.main h1 {
+    font-size: 80px;
+    text-align: center;
+    max-width: 850px;
+
+}
+
+.btn-cta {
+    color: white;
+    font-size: 40px;
+    background-color:rgba(228, 8, 20) ;
+    width: 290px;
+    height: 95px;
+    margin-left: 0;
+}
+
+#email {
+    margin-right: 0;
+    padding-left: 10px;
+    margin-top: 25px;
+    font-size: 20px;
+    width: 600px;
+    height: 92px;
+}
+
+.gradient {
+    background: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container-content {
+    align-items: center;
+    display: flex;
+}
+.text-tv {
+    align-items: flex-start;
+    margin-right: 50px;
+}
+.text-tv p{
+    margin-top: 35px;
+    font-size: 30px;
+}
+.text-tv h1 {
+    font-size: 75px;
+}
+.image-tv {
+    position: relative;
+}
+.border{
+    border-bottom: 8px solid #222;
+}
